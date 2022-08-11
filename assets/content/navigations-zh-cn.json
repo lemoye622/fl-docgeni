@@ -1,0 +1,199 @@
+{
+  "navs": [
+    {
+      "id": "guides",
+      "path": "guides",
+      "channelPath": "guides",
+      "title": "文档",
+      "items": [
+        {
+          "id": "intro",
+          "path": "intro",
+          "channelPath": "guides",
+          "title": "介绍",
+          "order": 10,
+          "toc": "content",
+          "headings": [],
+          "contentPath": "docs/zh-cn/guides/intro.html",
+          "originPath": "docs/zh-cn/guides/intro.md"
+        },
+        {
+          "id": "getting-started",
+          "path": "getting-started",
+          "channelPath": "guides",
+          "title": "快速开始",
+          "order": 20,
+          "toc": "content",
+          "headings": [
+            {
+              "id": "安装",
+              "name": "安装",
+              "level": 2,
+              "type": "h2"
+            },
+            {
+              "id": "使用模板",
+              "name": "使用模板",
+              "level": 2,
+              "type": "h2"
+            }
+          ],
+          "contentPath": "docs/zh-cn/guides/getting-started.html",
+          "originPath": "docs/zh-cn/guides/getting-started.md"
+        }
+      ],
+      "order": 9007199254740991
+    },
+    {
+      "title": "组件",
+      "path": "components",
+      "lib": "alib",
+      "items": [
+        {
+          "id": "general",
+          "title": "通用",
+          "items": [
+            {
+              "id": "button",
+              "title": "按钮",
+              "subtitle": "Button",
+              "path": "button",
+              "importSpecifier": "alib/button",
+              "examples": [
+                "alib-button-basic-example"
+              ],
+              "overview": true,
+              "api": true,
+              "order": 2,
+              "category": "general",
+              "label": {
+                "text": "New",
+                "color": "#73D897"
+              },
+              "originPath": "src/button/doc/zh-cn.md",
+              "toc": "content",
+              "channelPath": "components"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "GitHub",
+      "path": "https://github.com/docgeni/docgeni-template",
+      "isExternal": true
+    }
+  ],
+  "docs": [
+    {
+      "id": "getting-started",
+      "path": "getting-started",
+      "channelPath": "guides",
+      "title": "快速开始",
+      "order": 20,
+      "toc": "content",
+      "headings": [
+        {
+          "id": "安装",
+          "name": "安装",
+          "level": 2,
+          "type": "h2"
+        },
+        {
+          "id": "使用模板",
+          "name": "使用模板",
+          "level": 2,
+          "type": "h2"
+        }
+      ],
+      "contentPath": "docs/zh-cn/guides/getting-started.html",
+      "originPath": "docs/zh-cn/guides/getting-started.md"
+    },
+    {
+      "id": "intro",
+      "path": "intro",
+      "channelPath": "guides",
+      "title": "介绍",
+      "order": 10,
+      "toc": "content",
+      "headings": [],
+      "contentPath": "docs/zh-cn/guides/intro.html",
+      "originPath": "docs/zh-cn/guides/intro.md"
+    },
+    {
+      "id": "button",
+      "title": "按钮",
+      "subtitle": "Button",
+      "path": "button",
+      "importSpecifier": "alib/button",
+      "examples": [
+        "alib-button-basic-example"
+      ],
+      "overview": true,
+      "api": true,
+      "order": 2,
+      "category": "general",
+      "label": {
+        "text": "New",
+        "color": "#73D897"
+      },
+      "originPath": "src/button/doc/zh-cn.md",
+      "toc": "content",
+      "channelPath": "components"
+    }
+  ],
+  "homeMeta": {
+    "title": "首页",
+    "order": 10,
+    "hero": {
+      "title": "Docgeni",
+      "description": "开箱即用的 Angular 组件文档生成工具",
+      "actions": [
+        {
+          "text": "快速上手",
+          "link": "guides/getting-started",
+          "btnShape": "round"
+        },
+        {
+          "text": "Design",
+          "link": "guides/intro",
+          "btnShape": "square",
+          "btnType": "outline-primary-light"
+        }
+      ]
+    },
+    "features": [
+      {
+        "icon": "https://cdn.pingcode.com/open-sources/docgeni/home/功能1.png",
+        "title": "功能1",
+        "description": "功能1 描述"
+      },
+      {
+        "icon": "https://cdn.pingcode.com/open-sources/docgeni/home/功能2.png",
+        "title": "功能2",
+        "description": "功能2描述"
+      },
+      {
+        "icon": "https://cdn.pingcode.com/open-sources/docgeni/home/功能3.png",
+        "title": "功能3",
+        "description": "功能3描述"
+      },
+      {
+        "icon": "https://cdn.pingcode.com/open-sources/docgeni/home/功能4.png",
+        "title": "功能4",
+        "description": "功能4描述"
+      },
+      {
+        "icon": "https://cdn.pingcode.com/open-sources/docgeni/home/功能5.png",
+        "title": "功能5",
+        "description": "功能5描述"
+      },
+      {
+        "icon": "https://cdn.pingcode.com/open-sources/docgeni/home/功能6.png",
+        "title": "功能6",
+        "description": "功能6描述"
+      }
+    ],
+    "contentPath": "docs/zh-cn/index.html"
+  }
+}
